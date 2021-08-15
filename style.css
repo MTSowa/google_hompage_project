@@ -30,10 +30,12 @@ a {
 .wrp-gb_Ve {
   height: 35px;
   width: 35px;
-  background-color: lightgrey;
   border-radius: 50%;
   display: grid;
   place-content: center;
+}
+.wrp-gb_Ve:hover {
+  background-color: lightgrey;
 }
 .gb_Ve {
   width: 25px;
@@ -56,4 +58,16 @@ a {
 }
 .wrp {
   margin: 10px 10px 10px 10px;
+}
+
+/* Google Image Styling */
+.img-wrapper {
+  display: grid;
+  place-items: center;
+  height: 110px;
+}
+.img-wrapper img {
+  padding-top: 10px;
+  height: 100px;
+  width: auto;
 }
