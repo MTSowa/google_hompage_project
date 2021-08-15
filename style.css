@@ -27,17 +27,17 @@ a {
   text-decoration: underline;
 }
 
-.wrp-gb_Ve {
+.wrp-menu9 {
   height: 35px;
   width: 35px;
   border-radius: 50%;
   display: grid;
   place-content: center;
 }
-.wrp-gb_Ve:hover {
+.wrp-menu9:hover {
   background-color: lightgrey;
 }
-.gb_Ve {
+.menu9 {
   width: 25px;
   height: 25px;
 }
