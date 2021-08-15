@@ -64,10 +64,18 @@ a {
 .img-wrapper {
   display: grid;
   place-items: center;
-  height: 110px;
+  height: 111px;
 }
 .img-wrapper img {
   padding-top: 10px;
-  height: 100px;
+  height: 102px;
   width: auto;
+}
+
+/* Google Form-section  */
+
+/* footer section */
+.footer {
+  position: absolute;
+  bottom: 0;
 }
