@@ -9,6 +9,9 @@ body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+.pointer {
+  cursor: pointer;
+}
 
 /* styling top secstion.. */
 
@@ -20,7 +23,7 @@ a {
   display: block;
   text-align: center;
   padding-top: 10px;
-  font-size: smaller;
+  font-size: 14px;
 }
 
 .wrp a:hover {
@@ -45,6 +48,7 @@ a {
 .wrp-m_img {
   height: 35px;
   width: 35px;
+  margin-top: 25px;
 }
 .m_img {
   width: 100%;
@@ -76,11 +80,9 @@ a {
 
 .form-wrapper {
   height: auto;
-  /* background-color: aqua; */
 }
 .google_search-form {
-  /* border: 0.5px solid #dadce0; */
-  width: 58%;
+  width: 45%;
   margin: 0 auto;
 }
 form {
@@ -88,7 +90,7 @@ form {
 }
 .search-wrapper {
   width: 100%;
-  height: 40px;
+  height: 45px;
   margin-top: 25px;
   border-radius: 20px;
   box-sizing: border-box;
@@ -98,7 +100,7 @@ form {
 .fa-search {
   font-size: 20px;
   color: #f2f2f2ee;
-  padding: 7px 0px 5px 16px;
+  padding: 9px 0px 5px 16px;
 }
 .search-wrapper .svgg {
   /* font-size: 8px; */
@@ -117,6 +119,28 @@ input {
 }
 input:focus {
   border: none;
+}
+
+/* form buttons..... */
+.btn {
+  padding: 0px 16px;
+  line-height: 1.5;
+  border: none;
+  background-color: #f8f9fa;
+  margin: 11px 4px;
+  border-radius: 4px;
+}
+
+.google_search-buttons {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.google-btn1,
+.google-btn2 {
+  background-color: #f8f9fa;
+  margin-right: 7px;
 }
 
 /* footer section */
