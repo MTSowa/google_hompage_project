@@ -50,6 +50,9 @@ a {
   width: 35px;
   margin-top: 25px;
 }
+.m_img:hover {
+  box-shadow: 0 0 7px #87888a;
+}
 .m_img {
   width: 100%;
   border-radius: 50%;
@@ -80,10 +83,15 @@ a {
 
 .form-wrapper {
   height: auto;
+  position: relative;
+  top: -22px;
 }
 .google_search-form {
   width: 45%;
   margin: 0 auto;
+}
+.google_search-field:hover {
+  box-shadow: 0 0 7px #d1d4d8;
 }
 form {
   width: 100%;
@@ -106,8 +114,8 @@ form {
   /* font-size: 8px; */
   width: 25px;
   height: 25px;
-  margin: 5px;
-  margin-right: 8px;
+  margin: 9px;
+  margin-right: 10px;
 }
 input {
   width: 86%;
@@ -116,9 +124,11 @@ input {
   display: block;
   margin: 0 auto;
   padding: 5px 10px;
+  font-size: 15px;
 }
 input:focus {
   border: none;
+  outline: none;
 }
 
 /* form buttons..... */
@@ -142,7 +152,26 @@ input:focus {
   background-color: #f8f9fa;
   margin-right: 7px;
 }
-
+.other-lang {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 13px;
+  margin-top: -20px;
+  top: -10px;
+}
+.other-lang p {
+  padding: 7px;
+}
+.other-lang a {
+  display: block;
+  padding: 7px;
+  color: blue;
+}
+.other-lang a:hover {
+  text-decoration: underline;
+}
 /* footer section */
 .footer {
   position: absolute;
@@ -177,8 +206,8 @@ input:focus {
 }
 .footer a {
   display: block;
-  padding: 12px;
-  font-size: 13px;
+  padding: 14px;
+  font-size: 14px;
   color: #70757a;
 }
 .footer-country p {
