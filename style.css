@@ -36,6 +36,8 @@ a {
   border-radius: 50%;
   display: grid;
   place-content: center;
+  color: #5f6368;
+  margin-right: 10px;
 }
 .wrp-menu9:hover {
   background-color: lightgrey;
@@ -223,4 +225,60 @@ input:focus {
 }
 .footer a:hover {
   text-decoration: underline;
+}
+
+/* media Query 640px */
+
+@media screen and (max-width: 680px) {
+  * {
+    margin: 0;
+    font-size: 13px;
+  }
+  body {
+    height: 100vh;
+  }
+
+  .wrp-menu9 {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    margin-right: 10px;
+  }
+
+  .wrp-m_img {
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+  }
+  /* form section */
+  .form-wrapper {
+    width: 87%;
+    margin: 0 auto;
+  }
+  .google_search-form {
+    width: 100%;
+  }
+  .other-lang {
+    margin-top: 0px;
+  }
+
+  .footer {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 640) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-other_info {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    background-color: aqua;
+  }
 }
