@@ -135,11 +135,10 @@ input:focus {
 /* form buttons..... */
 .btn {
   padding: 0px 16px;
-  line-height: 1.5;
+  line-height: 1.3;
   border: none;
   background-color: #f8f9fa;
   margin: 11px 4px;
-  border-radius: 4px;
 }
 
 .google_search-buttons {
@@ -152,6 +151,11 @@ input:focus {
 .google-btn2 {
   background-color: #f8f9fa;
   margin-right: 7px;
+  border-radius: 6px;
+}
+.google-btn1:hover,
+.google-btn2:hover {
+  box-shadow: 0 0 1px;
 }
 .other-lang {
   position: relative;
@@ -159,7 +163,7 @@ input:focus {
   flex-direction: row;
   justify-content: center;
   font-size: 13px;
-  margin-top: -20px;
+  margin-top: -10px;
   top: -10px;
 }
 .other-lang p {
